@@ -14,6 +14,10 @@ public class TestLogging {
     public static void main(String[] args) {
 
         logger.info("Bienvenue !");
+        logger.warn("Attention !");
+
+        AppService ap = new AppService();
+        ap.executer("param1");
 
     }
 
