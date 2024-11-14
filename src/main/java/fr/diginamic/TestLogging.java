@@ -1,7 +1,10 @@
 package fr.diginamic;
 
+import fr.diginamic.service.AppService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+
 
 public class TestLogging {
 
@@ -13,4 +16,6 @@ public class TestLogging {
         logger.info("Bienvenue !");
 
     }
+
+
 }
